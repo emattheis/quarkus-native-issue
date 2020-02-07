@@ -35,9 +35,6 @@ implements StreamingOutput
 	public void write(OutputStream out)
 	throws IOException, WebApplicationException
 	{
-		log.info("sending HEAD request to quarkus.io");
-		ClientBuilder.newClient().target("https://quarkus.io").request().head().close();
-		
 		try (JsonGenerator json = Json.createGenerator(out))
 		{
 			log.info("fetching greetings");
