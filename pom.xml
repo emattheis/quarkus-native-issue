@@ -31,6 +31,11 @@
 
 		<dependency>
 			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-resteasy</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.quarkus</groupId>
 			<artifactId>quarkus-rest-client</artifactId>
 		</dependency>
 
@@ -66,6 +71,7 @@
 
 			<properties>
 				<quarkus.package.type>native</quarkus.package.type>
+				<quarkus.ssl.native>true</quarkus.ssl.native>
 			</properties>
 		</profile>
 		
