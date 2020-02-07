@@ -7,7 +7,6 @@ import java.io.OutputStream;
 import javax.json.Json;
 import javax.json.stream.JsonGenerator;
 import javax.ws.rs.WebApplicationException;
-import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.StreamingOutput;
 import javax.ws.rs.core.UriBuilder;
 
